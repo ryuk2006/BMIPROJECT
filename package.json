@@ -1,0 +1,45 @@
+{
+  "name": "bmi-tracker-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.2",
+    "@capacitor/cli": "^7.4.2",
+    "@capacitor/core": "^7.4.2",
+    "@react-pdf/renderer": "^4.3.0",
+    "@supabase/storage-js": "^2.10.4",
+    "@supabase/supabase-js": "^2.53.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdfkit": "^0.17.2",
+    "bcryptjs": "^3.0.2",
+    "canvas": "^3.1.2",
+    "dotenv": "^17.2.1",
+    "express-rate-limit": "^8.0.1",
+    "form-data": "^4.0.4",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.4.3",
+    "nodemailer": "^7.0.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
